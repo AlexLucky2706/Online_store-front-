@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Интернет-магазин">
+        <meta name="author" content="Александр Сибирцев">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" hrf="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+        <title>Интернет-магазин</title>
+    </head>
+    <body>
+<!-- Блок описания в шапке сайта -->
+        <header class="header">
+            <div class="info">
+                <div class="info__item">
+                    <img class="info__image" src="img/vector.png" alt="Доставка">
+                    <h3 class="info__header">Доставка по России</h3>
+                    <p class="info__text">Осуществляется транспортными компаниями или Почтой России</p>
+                </div>
+                <div class="info__item">
+                    <img class="info__image" src="img/pay.png" alt="Оплата">
+                    <h3 class="info__header">On-line оплата на сайте</h3>
+                    <p class="info__text">Оплата производится банковской картой и электронными деньгами</p>
+                </div>
+                <div class="info__item">
+                    <img class="info__image" src="img/union.png" alt="Скидки">
+                    <h3 class="info__header">Система скидок</h3>
+                    <p class="info__text">Накопительные скидки и бонусная программа для наших клиентов</p>
+                </div>
+            </div>
+        </header>
+<!-- Блок каталога товаров -->
+        <div class="catalog">
+            <h1 class="catalog__header"><span class="catalog__header--desktop">Каталог товаров</span><span class="catalog__header--mobile">Популярные категории</h1>
+            <div class="catalog__items">
+                <a href="#" class="catalog__link">
+                    <div class="catalog__item">
+                        <img src="img/desktops.png" class="catalog__image">
+                        <h3 class="catalog__name">Компьютеры</h3>
+                        <p class="catalog__number">393<span class="catalog__number--active">товара</span></p>
+                        <img class="catalog__arrow" src="img/arrow_right_active.png">
+                    </div>
+                </a>    
+                <a href="#" class="catalog__link">
+                    <div class="catalog__item">
+                        <img src="img/clothes.png" class="catalog__image">
+                        <h3 class="catalog__name">Одежда</h3>
+                        <p class="catalog__number">245<span class="catalog__number--active">товара</span></p>
+                        <img class="catalog__arrow" src="img/arrow_right_active.png">
+                    </div>
+                </a>
+                <a href="#" class="catalog__link">    
+                    <div class="catalog__item">
+                        <img src="img/electronics.png" class="catalog__image">
+                        <h3 class="catalog__name">Электроника</h3>
+                        <p class="catalog__number">456<span class="catalog__number--active">товара</span></p>
+                        <img class="catalog__arrow" src="img/arrow_right_active.png">
+                    </div>
+                </a>
+                <a href="#" class="catalog__link">    
+                    <div class="catalog__item">
+                        <img src="img/auto_products.png" class="catalog__image">
+                        <h3 class="catalog__name">Автотовары</h3>
+                        <p class="catalog__number">128<span class="catalog__number--active">товара</span></p>
+                        <img class="catalog__arrow" src="img/arrow_right_active.png">
+                    </div>
+                </a>
+                <a href="#" class="catalog__link">    
+                    <div class="catalog__item">
+                        <img src="img/sport.png" class="catalog__image">
+                        <h3 class="catalog__name">Спорт и отдых</h3>
+                        <p class="catalog__number">197<span class="catalog__number--active">товара</span></p>
+                        <img class="catalog__arrow" src="img/arrow_right_active.png">
+                    </div>
+                </a>
+                <a href="#" class="catalog__link">
+                    <div class="catalog__item">
+                        <img src="img/baby_products.png" class="catalog__image">
+                        <h3 class="catalog__name">Детские товары</h3>
+                        <p class="catalog__number">86<span class="catalog__number--active">товара</span></p>
+                        <img class="catalog__arrow" src="img/arrow_right_active.png">
+                    </div>
+                </a>
+                <a href="#" class="catalog__link">    
+                    <div class="catalog__item">
+                        <img src="img/tourism.png" class="catalog__image">
+                        <h3 class="catalog__name">Туризм и рыбалка</h3>
+                        <p class="catalog__number">92<span class="catalog__number--active">товара</span></p>
+                        <img class="catalog__arrow" src="img/arrow_right_active.png">
+                    </div>
+                </a>
+                <a href="#" class="catalog__link">    
+                    <div class="catalog__item">
+                        <img src="img/tools.png" class="catalog__image">
+                        <h3 class="catalog__name">Инструменты</h3>
+                        <p class="catalog__number">104<span class="catalog__number--active">товара</span></p>
+                        <img class="catalog__arrow" src="img/arrow_right_active.png">
+                    </div>
+                </a>    
+            </div>
+            <div class="catalog__btn">
+                <button class="catalog__show">Показать еще</button>
+                <img class="catalog__arrow__down" src="img/arrow_down.png">
+            </div>
+        </div>
+<!-- Блок слайдер с хитами продаж -->
+        <div class="hits">
+            <h1 class="hits__header">Хиты продаж</h1>
+            <div class="hits__slider">
+                <div class="hits__item">
+                    <a href="#" class="hits__link">
+                        <img class="hits__image" src="img/Iphone_8.png">
+                        <img class="hits__loupe" src="img/loupe.png">
+                        <img class="hits__mark" src="img/mark.png">
+                        <button class="hits__mark--mobile">хит</button>
+                        <img class="hits__icon--mobile" src="img/youtube.png">
+                        <h3 class="hits__name">Смартфон Apple Iphone 8 64GB Gold</h3>
+                        <img class="hits__stars" src="img/stars_5.png">
+                        <p class="hits__feedback">10 отзывов</p>
+                        <p class="hits__price">56 890 &#8381 <span class="hits_price--deactive">56990 &#8381</span></p>
+                        <img class="hits__ok--mobile" src="img/ok.png">
+                        <p class="hits__availability"><span class="hits__availability--mobile">В наличии</span></p>
+                        <a class="hits__add" type="button">В корзину</a>
+                        <img class="hits__contratst" src="img/contrast.png">
+                        <img class="hits__contratst--mobile" src="img/stat.png">
+                        <img class="hits__like" src="img/like.png">
+                        <a href="#" class="hits__link--mobile">Купить в 1 клик</a>
+                    </a>    
+                </div>
+                <div class="hits__item">
+                    <a href="#" class="hits__link">
+                        <img class="hits__image" src="img/samsung_galaxy_s8.png">
+                        <img class="hits__loupe" src="img/loupe.png">
+                        <img class="hits__mark" src="img/mark.png">
+                        <button class="hits__mark--mobile">хит</button> 
+                        <img class="hits__icon--mobile" src="img/youtube.png">
+                        <h3 class="hits__name">Смартфон Samsung Galaxy S8 64GB Black</h3>
+                        <img class="hits__stars" src="img/stars_4.5.png">
+                        <p class="hits__feedback">12 отзывов</p>
+                        <p class="hits__price">49 990 &#8381 <span class="hits_price--deactive">54990 &#8381</span></p>
+                        <img class="hits__ok--mobile" src="img/ok.png">
+                        <p class="hits__availability"><span class="hits__availability--mobile">В наличии</span></p>
+                        <a class="hits__add" type="button">В корзину</a>
+                        <img class="hits__contratst" src="img/contrast.png">
+                        <img class="hits__contratst--mobile" src="img/stat.png">
+                        <img class="hits__like" src="img/like.png">
+                        <a href="#" class="hits__link--mobile">Купить в 1 клик</a>
+                    </a>    
+                </div>
+                <div class="hits__item">
+                    <a href="#" class="hits__link">
+                        <img class="hits__image" src="img/Honor_9.png">
+                        <img class="hits__loupe" src="img/loupe.png">
+                        <img class="hits__mark" src="img/mark.png">
+                        <button class="hits__mark--mobile">хит</button>
+                        <img class="hits__icon--mobile" src="img/youtube.png">
+                        <h3 class="hits__name">Смартфон Huawei Honor 9 64GB Blue</h3>
+                        <img class="hits__stars" src="img/stars_4.png">
+                        <p class="hits__feedback">8 отзывов</p>
+                        <p class="hits__price">26 990 &#8381</p>
+                        <img class="hits__ok--mobile" src="img/ok.png">
+                        <p class="hits__availability"><span class="hits__availability--mobile">В наличии</span></p>
+                        <a class="hits__add" type="button">В корзину</a>
+                        <img class="hits__contratst" src="img/contrast.png">
+                        <img class="hits__contratst--mobile" src="img/stat.png">
+                        <img class="hits__like" src="img/like.png">
+                        <a href="#" class="hits__link--mobile">Купить в 1 клик</a>
+                    </a>    
+                </div>
+                <div class="hits__item">
+                    <a href="#" class="hits__link">
+                        <img class="hits__image" src="img/Asus_Zenfone_4.png">
+                        <img class="hits__loupe" src="img/loupe.png">
+                        <img class="hits__mark" src="img/mark.png">
+                        <button class="hits__mark--mobile">хит</button>
+                        <img class="hits__icon--mobile" src="img/youtube.png">
+                        <h3 class="hits__name">Смартфон ASUS ZenFone 4 Max ZC554KL 16GB Black</h3>
+                        <img class="hits__stars" src="img/stars_3.png">
+                        <p class="hits__feedback">5 отзывов</p>
+                        <p class="hits__price">13 990 &#8381</p>
+                        <img class="hits__ok--mobile" src="img/ok.png">
+                        <p class="hits__availability"><span class="hits__availability--mobile">В наличии</span></p>
+                        <a class="hits__add" type="button">В корзину</a>
+                        <img class="hits__contratst" src="img/contrast.png">
+                        <img class="hits__contratst--mobile" src="img/stat.png">
+                        <img class="hits__like" src="img/like.png">
+                        <a href="#" class="hits__link--mobile">Купить в 1 клик</a>
+                    </a>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="slick/slick.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
